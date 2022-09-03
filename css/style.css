@@ -175,6 +175,11 @@ body {
   color: var(--primaru-white-color);
 }
 
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
 .link-address {
   text-decoration: none;
   font-style: normal;
@@ -189,7 +194,5 @@ body {
 .link-address:focus {
   color: var(--primaru-white-color);
 }
-
-
 /* portfolio */
 
