@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Document</title>
+    <title>Portfolio</title>
   </head>
   <body>
     <header class="header">
@@ -23,7 +23,7 @@
             <a href="./index.html" class="link">Студія</a>
           </li>
           <li class="list-item">
-            <a href="./portfolio.html" class="link">Портфоліо</a>
+            <a href="./portfolio.html" class="link current">Портфоліо</a>
           </li>
           <li class="list-item"><a href="" class="link">Контакти</a></li>
         </ul>
@@ -31,18 +31,17 @@
       <ul class="contacts-list">
         <li class="list-item">
           <a href="mailto:info@devstudio.com" class="link"
-            >info@devstudio.com</a
-          >
+            >info@devstudio.com</a>
         </li>
         <li class="list-item">
           <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
-
+    <!-- portfolio section -->
     <main>
-      <section class="portfolio">
-        <h1 class="portfolio-title">Портфоліо</h1>
+      <section class="portfolio-section">
+        <h1 class="hidden-title">Портфоліо</h1>
         <ul class="btn-list">
           <li class="list-item">
             <button type="button" class="portfolio-btn">Усі</button>
@@ -63,64 +62,64 @@
 
         <ul class="portfolio-list">
           <li class="list-item">
-            <a href="" class="portfolio-link"
+            <a href="" class="portfolio link"
               ><img src="./img/img1.jpg" alt="ноутбук" width="370" />
               <h2 class="title-item">Технокряк</h2>
               <p class="portfolio-text">Веб-сайт</p>
             </a>
           </li>
           <li class="list-item">
-            <a href="" class="portfolio-link"
-              ><img src="./img/img2.jpg" alt="" width="370" />
+            <a href="" class="portfolio link"
+              ><img src="./img/img2.jpg" alt="чоловіки і м'яч" width="370" />
               <h2 class="title-item">Постер New Orlean vs Golden Star</h2>
               <p class="portfolio-text">Дизайн</p>
             </a>
           </li>
           <li class="list-item">
-            <a href="" class="portfolio-link"
-              ><img src="./img/img3.jpg" alt="" width="370" />
+            <a href="" class="portfolio link"
+              ><img src="./img/img3.jpg" alt="риба" width="370" />
               <h2 class="title-item">Ресторан Seafood</h2>
               <p class="portfolio-text">Додаток</p>
             </a>
           </li>
           <li class="list-item">
-            <a href="" class="portfolio-link"
-              ><img src="./img/img4.jpg" alt="" width="370" />
+            <a href="" class="portfolio link"
+              ><img src="./img/img4.jpg" alt="наушники" width="370" />
               <h2 class="title-item">Проєкт Prime</h2>
               <p class="portfolio-text">Маркетинг</p>
             </a>
           </li>
           <li class="list-item">
-            <a href="" class="portfolio-link"
-              ><img src="./img/img5.jpg" alt="" width="370" />
+            <a href="" class="portfolio link"
+              ><img src="./img/img5.jpg" alt="дві коробки" width="370" />
               <h2 class="title-item">Проєкт Boxes</h2>
               <p class="portfolio-text">Додаток</p>
             </a>
           </li>
           <li class="list-item">
-            <a href="" class="portfolio-link"
-              ><img src="./img/img6.jpg" alt="" width="370" />
+            <a href="" class="portfolio link"
+              ><img src="./img/img6.jpg" alt="монітор" width="370" />
               <h2 class="title-item">Inspiration has no Borders</h2>
               <p class="portfolio-text">Веб-сайт</p>
             </a>
           </li>
           <li class="list-item">
-            <a href="" class="portfolio-link"
-              ><img src="./img/img7.jpg" alt="" width="370" />
+            <a href="" class="portfolio link"
+              ><img src="./img/img7.jpg" alt="книга" width="370" />
               <h2 class="title-item">Видання Limited Edition</h2>
               <p class="portfolio-text">Дизайн</p>
             </a>
           </li>
           <li class="list-item">
-            <a href="" class="portfolio-link"
-              ><img src="./img/img8.jpg" alt="" width="370" />
+            <a href="" class="portfolio link"
+              ><img src="./img/img8.jpg" alt="бірка" width="370" />
               <h2 class="title-item">Проєкт LAB</h2>
               <p class="portfolio-text">Маркетинг</p>
             </a>
           </li>
           <li class="list-item">
-            <a href="" class="portfolio-link"
-              ><img src="./img/img9.jpg" alt="" width="370" />
+            <a href="" class="portfolio link"
+              ><img src="./img/img9.jpg" alt="ноутбук" width="370" />
               <h2 class="title-item">Growing Business</h2>
               <p class="portfolio-text">Додаток</p>
             </a>
@@ -130,10 +129,9 @@
     </main>
 
     <footer class="footer">
-      <!-- address -->
       <a href="./index.html" class="logo"
-        ><span class="logo-item">Web</span>Studio</a
-      >
+        ><span class="logo-item">Web</span>Studio</a>
+      <!-- address -->
       <address class="address">
         <ul class="list-address">
           <li class="list-item">
@@ -141,19 +139,18 @@
               href="https://goo.gl/maps/AqPgKA1JQSFDFY3W7"
               target="_blank"
               rel="noreferrer noopener"
-              class="link-address"
-              >м. Київ, пр-т Лесі Українки, 26</a
-            >
+              class="link address"
+              ><span class="address-text"
+                >м. Київ, пр-т Лесі Українки, 26</span>
+              </a>
           </li>
           <li class="list-item">
-            <a href="mailto:info@devstudio.com" class="link-address"
-              >info@devstudio.com</a
-            >
+            <a href="mailto:info@devstudio.com" class="link address"
+              >info@devstudio.com</a>
           </li>
           <li class="list-item">
-            <a href="tel:+380961111111" class="link-address"
-              >+38 096 111 11 11</a
-            >
+            <a href="tel:+380961111111" class="link address"
+              >+38 096 111 11 11</a>
           </li>
         </ul>
       </address>
